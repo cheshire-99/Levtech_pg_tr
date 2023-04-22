@@ -19,10 +19,9 @@
         <div class='paginate'>
             {{ $posts->links() }}
         </div>
-        
+
         <h2 class='title'>
             <a href="/posts/{{ $post->id }}">{{ $post->title }}</a>
         </h2>
     </body>
-</html
-
+</html>
